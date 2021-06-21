@@ -23,6 +23,9 @@ Write a C++ World Plugin to interact with your world. Your code should display �
     │   ├── bot1
     │   │   ├── model.config
     │   │   ├── model.sdf
+    │   ├── bot2
+    │   │   ├── model.config
+    │   │   ├── model.sdf
     ├── script                         # Gazebo World plugin C++ script      
     │   ├── script.cpp
     ├── world                          # Gazebo main World empty scene
