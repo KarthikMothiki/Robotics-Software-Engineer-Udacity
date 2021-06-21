@@ -41,7 +41,7 @@ $ sudo apt-get update && sudo apt-get upgrade -y
 #### Step 2 Clone the lab folder in /home/workspace/
 ```sh
 $ cd /home/workspace/
-$ https://github.com/KarthikMothiki/Robotics-Software-Engineer.git
+$ https://github.com/KarthikMothiki/Robotics-Software-Engineer-Udacity.git
 ```
 
 #### Step 3 Compile the code
