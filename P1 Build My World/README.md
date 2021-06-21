@@ -16,7 +16,7 @@ Write a C++ World Plugin to interact with your world. Your code should display �
 
 ### Directory Structure
 ```
-    .P1 Build My World                           # myrobot lab main folder 
+    .P1 Build My World                 # myrobot lab main folder 
     ├── images                         # Code output image                   
     │   ├── output.png
     ├── model                          # Model files of the two-wheeled robot
