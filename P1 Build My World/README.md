@@ -64,4 +64,5 @@ $ gazebo myworld
 ```
 
 ## Output Image
-![Screenshot from 2021-06-21 10-53-56](https://user-images.githubusercontent.com/62557178/122758264-36c9ae80-d2b6-11eb-87d8-48f233f2f930.png)
+![Output image](https://user-images.githubusercontent.com/62557178/122758381-5c56b800-d2b6-11eb-9f0d-61ce7bf86bd4.png)
+
