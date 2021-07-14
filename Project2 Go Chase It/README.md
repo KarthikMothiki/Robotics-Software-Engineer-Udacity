@@ -59,16 +59,15 @@ Directory Structure
 │   ├── record video.mp4                       # video
 │   ├── video_gif.gif                          # video
 ```
-- [drive_bot.cpp](Project2 Go Chase It/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
-- [process_images.cpp](/catkin_ws/src/ball_chaser/src/process_images.cpp): ROS service C++ script, process the camera image and return requested speeds.  
-- [world.launch](/catkin_ws/src/my_gokart/launch/world.launch): Launch my_gokart mode in Gazebo world with building and plugins.  
-- [robot_description.launch](/catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world. 
-- [empty.world](/catkin_ws/src/my_robot/worlds/empty.world): Gazebo world file that includes nothing.  
-- [office.world](/catkin_ws/src/my_robot/worlds/office.world): Gazebo world file that includes the models.  
-- [CMakeLists.txt](/catkin_ws/src/my_robot/CMakeLists.txt): File to link the C++ code to libraries.  
-- [hokuyo.dae](/catkin_ws/src/my_robot/meshes/hokuyo.dae): Hokuyo LiDAR sensor mesh model.  
-- [my_robot.gazebo](/catkin_ws/src/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
-- [my_robot.xacro](/catkin_ws/src/my_robot/urdf/my_robot.xacro): Define my_robot URDF model.  
+- [drive_bot.cpp](https://github.com/KarthikMothiki/Robotics-Software-Engineer-Udacity/blob/046119888934f048b1e99ec4a8233dc202710158/Project2%20Go%20Chase%20It/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
+- [process_images.cpp](https://github.com/KarthikMothiki/Robotics-Software-Engineer-Udacity/blob/122db0962005881a09f80fa12a73e0f4e8e3a297/Project2%20Go%20Chase%20It/ball_chaser/src/process_image.cpp): ROS service C++ script, process the camera image and return requested speeds.  
+- [world.launch](https://github.com/KarthikMothiki/Robotics-Software-Engineer-Udacity/blob/122db0962005881a09f80fa12a73e0f4e8e3a297/Project2%20Go%20Chase%20It/my_robot/launch/world.launch): Launch my_gokart mode in Gazebo world with building and plugins.  
+- [robot_description.launch](https://github.com/KarthikMothiki/Robotics-Software-Engineer-Udacity/blob/122db0962005881a09f80fa12a73e0f4e8e3a297/Project2%20Go%20Chase%20It/my_robot/launch/robot_description.launch): Create robot model in Gazebo world. 
+- [office.world](https://github.com/KarthikMothiki/Robotics-Software-Engineer-Udacity/blob/122db0962005881a09f80fa12a73e0f4e8e3a297/Project2%20Go%20Chase%20It/my_robot/worlds/world.world): Gazebo world file that includes the models.  
+- [CMakeLists.txt](https://github.com/KarthikMothiki/Robotics-Software-Engineer-Udacity/blob/main/Project2%20Go%20Chase%20It/my_robot/CMakeLists.txt): File to link the C++ code to libraries.  
+- [hokuyo.dae](https://github.com/KarthikMothiki/Robotics-Software-Engineer-Udacity/blob/main/Project2%20Go%20Chase%20It/my_robot/meshes/hokuyo.dae): Hokuyo LiDAR sensor mesh model.  
+- [my_robot.gazebo](https://github.com/KarthikMothiki/Robotics-Software-Engineer-Udacity/blob/main/Project2%20Go%20Chase%20It/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
+- [my_robot.xacro](https://github.com/KarthikMothiki/Robotics-Software-Engineer-Udacity/blob/main/Project2%20Go%20Chase%20It/my_robot/urdf/my_robot.xacro): Define my_robot URDF model.  
 
 ## Run the project  
 * Clone this repository
