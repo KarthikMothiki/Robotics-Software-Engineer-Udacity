@@ -30,7 +30,7 @@ void process_image_callback(const sensor_msgs::Image img)
     int white_pixel = 255;
     // Initializing required variables
     bool clear_ball_image = false;
-    int step_pixel;
+    int step_pixel=-1;
 
     // TODO: Loop through each pixel in the image and check if there's a bright white one
     // Then, identify if this pixel falls in the left, mid, or right side of the image
@@ -52,22 +52,22 @@ void process_image_callback(const sensor_msgs::Image img)
 	if (clear_ball_image == true)
 	{
 	    // If the white pixel lies in the left region of the frame, the bot turns left
-	    if (step_pixel < (1/3)*img.step)
+	    if (step_pixel < img.step/3)
 	    {
-		    drive_robot(0.0, 0.5);   
+		    drive_robot(0.0, 0.25);   
 		    ROS_INFO("Turning Left");
 	    }
+	    // If the white pixel lies in the right region of the frame, the bot turns right
+	    else if (step_pixel > ((2*img.step)/3))
+	    {
+		    drive_robot(0.0, -0.25);   
+		    ROS_INFO("Turning Right");
+	    }
 	    // If the white pixel lies in the center region of the frame, the bot moves forward
-	    else if (step_pixel > (2/3)*img.step)
+	    else
 	    {
 		    drive_robot(0.5, 0.0);   
 		    ROS_INFO("Moving Forward");
-	    }
-	    // If the white pixel lies in the right region of the frame, the bot turns right
-	    else
-	    {
-		    drive_robot(0.0, -0.5);   
-		    ROS_INFO("Turning Right");
 	    }
 	}
 	// When all the above conditions are false i.e, The white pixel is not detected in the camera frame the bot stops
@@ -95,4 +95,3 @@ int main(int argc, char** argv)
 
     return 0;
 }
-
