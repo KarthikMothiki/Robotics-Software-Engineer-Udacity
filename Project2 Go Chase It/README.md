@@ -2,8 +2,11 @@
 Project 2 of Udacity Robotics Software Engineer Nanodegree Program
 
 ## Output video
-- ![Screencast from Thursday 15 July 2021 03_33_23  IST](https://user-images.githubusercontent.com/62557178/125771512-5f4643a0-5761-4c0b-9dbf-67aadd7f0f90.gif)
-- ![Screencast from Thursday 15 July 2021 03_33_56  IST](https://user-images.githubusercontent.com/62557178/125771557-2fb631f7-100b-4d18-a431-6e9da7c067b6.gif)
+- **When the ball is camera frame bot moves in that direction.**
+![Screencast from Thursday 15 July 2021 03_33_23  IST](https://user-images.githubusercontent.com/62557178/125771512-5f4643a0-5761-4c0b-9dbf-67aadd7f0f90.gif)
+
+- **When the ball is no in the frame the bot simply stops.** 
+![Screencast from Thursday 15 July 2021 03_33_56  IST](https://user-images.githubusercontent.com/62557178/125771557-2fb631f7-100b-4d18-a431-6e9da7c067b6.gif)
 
 ## Overview  
 In this project you'll create two ROS packages inside your `catkin_ws/src`: the `drive_bot` and the `ball_chaser` which will be used in Gazebo for all your upcoming projects in the [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). Here are the steps to design the robot, house it inside your world, and program it to chase white-colored balls:  
