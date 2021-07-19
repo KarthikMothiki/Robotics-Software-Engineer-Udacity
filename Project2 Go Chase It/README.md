@@ -1,5 +1,5 @@
 # RoboND-Term1-P2-Go-Chase-It
-Project 2 of Udacity Robotics Software Engineer Nanodegree Program
+Project-2 of Udacity Robotics Software Engineer Nanodegree Program
 
 ## Output video
 - **When the ball is camera frame bot moves in that direction.**
