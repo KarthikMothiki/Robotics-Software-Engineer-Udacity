@@ -120,19 +120,7 @@ Directory Structure
 │   │   ├── CMakeLists.txt                                # compiler instructions
 ├── video.mp4                                             # Videos for overview
 ├── video.gif                                             # GIF for overview
-```
-- [view_home_service_navigation.launch](/catkin_ws/src/add_markers/launch/view_home_service_navigation.launch): Launch rviz with specify rviz configuration file  
-- [add_markers.cpp](/catkin_ws/src/pick_objects/src/add_markers.cpp): C++ script, communicate with `pick_objects` node and control the marker appearance to simulate object pick up and drop off   
-- [pick_objects.cpp](/catkin_ws/src/pick_objects/src/pick_objects.cpp): C++ script, communicate with `add_markers` node and command the robot to pick up the object  
-- [home_service_rvizConfig.rviz](/catkin_ws/src/rvizConfig/home_service_rvizConfig.rviz): rvizConfig file for home service robot demo which contained `markers` option  
-- [add_marker.sh](/catkin_ws/src/scripts/add_marker.sh): Shell script file to deploy a turtlebot inside your environment, model a virtual object with markers in `rviz`.  
-- [home_service.sh](/catkin_ws/src/scripts/home_service.sh): Shell script file to deploy a turtlebot inside your environment, simulate a full home service robot capable of navigating to pick up and deliver virtual objects.  
-- [pick_objects.sh](/catkin_ws/src/scripts/pick_objects.sh): Shell script file to deploy a turtlebot inside your environment, communicate with the ROS navigation stack and autonomously send successive goals for your robot to reach.  
-- [test_navigation.sh](/catkin_ws/src/scripts/test_navigation.sh): Shell script file to deploy a turtlebot inside your environment, pick two different goals and test your robot's ability to reach them and orient itself with respect to them.  
-- [test_slam.sh](/catkin_ws/src/scripts/test_slam.sh): Shell script file to deploy a turtlebot inside your environment, control it with keyboard commands, interface it with a SLAM package, and visualize the map in `rviz`  
-
-- [CMakeLists.txt](/catkin_ws/src/CMakeLists.txt): File to link the C++ code to libraries.  
-- [video.gif](video.gif): A gif of video for final home service robot run  
+```  
 
 ## Run the project  
 * Clone this repository
